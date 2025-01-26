@@ -21,7 +21,7 @@ const Home = () => {
                 parentClassName="all-letters"
                 encryptedClassName="encrypted"
                 animateOn="view"
-                revealDirection="end"
+                revealDirection="start"
                 sequential
               />
               <DecryptedText
@@ -33,7 +33,7 @@ const Home = () => {
                 parentClassName="all-letters"
                 encryptedClassName="encrypted"
                 animateOn="view"
-                revealDirection="end"
+                revealDirection="start"
                 sequential
               />
             </p>

@@ -11,12 +11,12 @@ const Experience = () => {
           <div className="flex items-center lg:w-1/2 w-full gap-2 h-fit">
             <div className="flex flex-col gap-2 w-full">
               <h1 className="text-4xl text-primary mb-2 text-center lg:text-left">Education</h1>
-              <div className="flex flex-col p-3 text-black rounded-lg bg-base-100">
+              <div className="flex flex-col p-3 text-black rounded-lg bg-white">
                 <p className="text-sm text-primary">Graduated May 2022</p>
                 <h1 className="text-lg font-semibold">SMAN 01 Pemalang</h1>
                 <p className="italic">Major in Science (MIPA)</p>
               </div>
-              <div className="flex flex-col p-3 text-black rounded-lg bg-base-100">
+              <div className="flex flex-col p-3 text-black rounded-lg bg-white">
                 <p className="text-sm text-primary">Aug 2022 - Current</p>
                 <h1 className="text-lg font-semibold">
                   Dian Nuswantoro University
@@ -31,7 +31,7 @@ const Experience = () => {
           <div className="flex items-center lg:w-1/2 w-full gap-2 h-fit">
             <div className="flex flex-col gap-2">
               <h1 className="text-4xl text-primary mb-2 text-center lg:text-left">Experience</h1>
-              <div className="flex flex-col p-3 text-black rounded-lg bg-base-100">
+              <div className="flex flex-col p-3 text-black rounded-lg bg-white">
                 <p className="text-sm text-primary">Aug 2024 – Oct 2024</p>
                 <h1 className="text-lg font-semibold">
                   Internship at DISKOMINFO Semarang
@@ -48,7 +48,7 @@ const Experience = () => {
                   goals.
                 </p>
               </div>
-              <div className="flex flex-col p-3 text-black rounded-lg bg-base-100">
+              <div className="flex flex-col p-3 text-black rounded-lg bg-white">
                 <p className="text-sm text-primary">May 2024 – Sep 2024</p>
                 <h1 className="text-lg font-semibold">
                   Freelance Website Developer

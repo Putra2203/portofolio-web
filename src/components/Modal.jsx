@@ -4,7 +4,7 @@ const Modal = ({ isOpen, image, onClose }) => {
   if (!isOpen) return null; 
 
   return (
-    <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex justify-center items-center z-50">
+    <div className="fixed inset-0 bg-gray-800 bg-opacity-75 flex justify-center items-center z-50 lg:p-0 p-4">
       <div className="relative bg-white p-10 rounded-lg shadow-lg">
         <button
           className="absolute top-0 right-2 text-red-700 text-2xl"

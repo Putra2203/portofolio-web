@@ -67,8 +67,8 @@ const Projects = () => {
       id="projects"
     >
       <h1 className="text-4xl mb-4 text-center text-primary">My Projects</h1>
-      <div className="flex flex-col w-full max-w-screen-xl bg-white rounded-xl shadow-xl overflow-hidden">
-        <div className="flex flex-col sm:flex-row lg:h-[38rem]">
+      <div className="flex flex-col w-full max-w-(--breakpoint-xl) bg-white rounded-xl shadow-xl overflow-hidden">
+        <div className="flex flex-col sm:flex-row lg:h-152">
           {/* List Project */}
           <div className="flex flex-col w-full sm:w-1/3 p-6 border-b sm:border-b-0 sm:border-r">
             <h1 className="text-3xl font-semibold text-primary mb-4">

@@ -6,7 +6,7 @@ const Experience = () => {
       className="flex flex-col items-center justify-center w-full lg:mt-12 mt-10"
       id="experience"
     >
-      <div className="flex flex-col w-full h-fit max-w-screen-xl lg:p-0 p-4 font-montserrat">
+      <div className="flex flex-col w-full h-fit max-w-(--breakpoint-xl) lg:p-0 p-4 font-montserrat">
         <div className="flex flex-col lg:flex-row justify-center gap-10 ">
           <div className="flex items-center lg:w-1/2 w-full gap-2 h-fit">
             <div className="flex flex-col gap-2 w-full">

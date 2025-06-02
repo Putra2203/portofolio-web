@@ -4,7 +4,7 @@ import DecryptedText from "../components/DecryptedText";
 const Home = () => {
   return (
     <div className="flex items-center justify-center w-full lg:mt-24 mt-16 h-fit" id="home">
-      <div className="flex flex-col w-full max-w-screen-xl h-fit lg:p-0 p-4">
+      <div className="flex flex-col w-full max-w-(--breakpoint-xl) h-fit lg:p-0 p-4">
         <div className="flex flex-col lg:flex-row w-full gap-2 font-bold font-montserrat">
           <div className="flex flex-col justify-center lg:w-1/4 w-full">
             <h1 className="lg:text-3xl text-xl text-primary">lemme Introduce</h1>

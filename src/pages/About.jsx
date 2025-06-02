@@ -4,8 +4,8 @@ import image from "../assets/cover.jpg";
 const About = () => {
   return (
     <div className="flex items-center justify-center w-full h-fit " id="about">
-      <div className="flex flex-col w-full max-w-screen-xl h-fit lg:p-0 p-4">
-        <div className="flex flex-col lg:flex-row gap-5 p-5 lg:mt-10 mt-0 border rounded">
+      <div className="flex flex-col w-full max-w-(--breakpoint-xl) h-fit lg:p-0 p-4">
+        <div className="flex flex-col lg:flex-row gap-5 p-5 lg:mt-10 mt-0 border rounded-sm">
           <div className="flex rounded-lg h-96 w-80">
             <img
               src={image}

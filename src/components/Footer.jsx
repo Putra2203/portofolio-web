@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="footer bg-neutral text-neutral-content flex w-full justify-center items-center mt-24">
-      <div className="flex flex-col lg:flex-row max-w-screen-xl p-10 justify-between w-full">
+      <div className="flex flex-col lg:flex-row max-w-(--breakpoint-xl) p-10 justify-between w-full">
         <div className="flex text-base">
           <p className="text-lg">
             <span className="text-primary text-2xl">Putra's</span>

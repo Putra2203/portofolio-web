@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="lg:bg-transparent absolute w-full top-2">
+    <div className="lg:bg-transparent absolute w-full top-2 flex px-2">
       {/* navbar lg */}
       <div className="bg-primary border-2 border-secondary px-5 py-4 hidden w-full max-w-(--breakpoint-xl) lg:flex navbar-start rounded-2xl mx-auto mt-3">
         <ul className="flex justify-end w-full gap-10">
@@ -48,21 +48,21 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow-sm gap-3"
           >
-            <li className="hover:underline text-black">
+            <li className="hover:underline">
               <a href="#home">Home</a>
             </li>
-            <li className="hover:underline text-black">
+            <li className="hover:underline">
               <a href="#about">About</a>
             </li>
-            <li className="hover:underline text-black">
+            <li className="hover:underline">
               <a href="#experience">Education & Experience</a>
             </li>
-            <li className="hover:underline text-black">
+            <li className="hover:underline">
               <a href="#projects" className="transition-all duration-200">
                 Projects
               </a>
             </li>
-            <li className="hover:underline text-black">
+            <li className="hover:underline">
               <a href="#skills">Skills</a>
             </li>
           </ul>

@@ -5,18 +5,20 @@ import { CircleDot } from "lucide-react";
 const About = () => {
   return (
     <div className="flex items-center justify-center w-full h-fit " id="about">
-      <div className="flex flex-col w-full max-w-(--breakpoint-xl)">
+      <div className="flex flex-col w-full max-w-(--breakpoint-xl) px-4 lg:px-0">
         <div className="flex flex-col gap-5 p-12 border-2 border-secondary rounded-2xl bg-primary">
           <div className="flex w-full gap-4 items-center">
             <h1 className="text-xl text-gray-500">Frontend Developer</h1>
-            <div className="badge text-red-300 p-4">
-              <p>○ Available For Job</p>
+            <div className="badge text-red-300 lg:p-4 p-6">
+              <p className="">○ Available For Job</p>
             </div>
           </div>
-          <div className="flex w-full justify-between items-center">
-            <div className="flex flex-col w-1/2 gap-4">
-              <h1 className="text-4xl font-extrabold">Erdin Purwa Putra</h1>
-              <p className="text-pretty lg:text-left lg:leading-loose text-justify tracking-wide text-white font-montserrat">
+          <div className="flex w-full lg:justify-between justify-center flex-col-reverse lg:flex-row items-center ">
+            <div className="flex flex-col lg:w-1/2 w-full gap-4 mt-4 lg:mt-0">
+              <h1 className="lg:text-4xl text-2xl font-extrabold">
+                Erdin Purwa Putra
+              </h1>
+              <p className="text-pretty text-justify text-white font-montserrat">
                 I'm an Informatics Engineering student skilled in front-end. I
                 create responsive, user-friendly websites with a strong focus on
                 design, usability, and continuous learning.

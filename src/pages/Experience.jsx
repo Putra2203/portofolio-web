@@ -37,7 +37,7 @@ const Experience = () => {
       className="flex flex-col items-center justify-center w-full"
       id="experience"
     >
-      <div className="flex flex-col w-full max-w-(--breakpoint-xl) lg:p-0 p-4 font-montserrat">
+      <div className="flex flex-col w-full max-w-(--breakpoint-xl) lg:px-0 px-4 font-montserrat">
         <div className="flex flex-col lg:flex-row justify-center gap-4">
           <div className="flex items-start lg:w-1/2 w-full gap-2 bg-primary p-6 border-2 border-secondary rounded-3xl">
             <div className="flex flex-col gap-2 w-full">
@@ -63,7 +63,7 @@ const Experience = () => {
               </h1>
               {experienceData.map((exp, index) => (
                 <div className="flex flex-col bg-primary p-6 border-2 border-secondary rounded-3xl">
-                  <div className="flex justify-between mb-4">
+                  <div className="flex justify-between mb-4 lg:flex-row flex-col gap-2">
                     <p className="text-sm">{exp.date}</p>
                     <div className="badge badge-outline badge-error">{exp.role}</div>
                   </div>

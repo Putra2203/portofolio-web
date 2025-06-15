@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="transition-all duration-700 ease-in-out">
+    <div className="transition-all duration-700 ease-in-out flex flex-col gap-4">
       <Navbar />
       <Home />
       <About />

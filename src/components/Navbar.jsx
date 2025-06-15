@@ -2,10 +2,10 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-neutral lg:bg-transparent rounded-3xl absolute w-full flex top-2">
+    <div className="lg:bg-transparent absolute w-full top-2">
       {/* navbar lg */}
-      <div className="items-center bg-neutral px-5 py-4 hidden w-full mx-10 my-3 lg:flex navbar-start rounded-xl">
-        <ul className="flex justify-end w-full gap-10 ">
+      <div className="bg-primary border-2 border-secondary px-5 py-4 hidden w-full max-w-(--breakpoint-xl) lg:flex navbar-start rounded-2xl mx-auto mt-3">
+        <ul className="flex justify-end w-full gap-10">
           <li className="hover:underline">
             <a href="#home">Home</a>
           </li>
@@ -51,7 +51,7 @@ const Navbar = () => {
             <li className="hover:underline text-black">
               <a href="#home">Home</a>
             </li>
-            <li className="hover:underline text-black"> 
+            <li className="hover:underline text-black">
               <a href="#about">About</a>
             </li>
             <li className="hover:underline text-black">

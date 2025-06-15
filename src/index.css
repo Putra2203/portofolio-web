@@ -1,25 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap")
 layer(base);
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap")
 layer(base);
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap')
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lavishly+Yours&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap")
 layer(base);
 
-@import 'tailwindcss';
+@import "tailwindcss";
+@plugin "daisyui";
 
 @theme {
   --font-play-fair-display: Playfair Display, serif;
   --font-lavishlyyoursregular: Lavishly Yours, cursive;
   --font-montserrat: Montserrat, sans-serif;
 
-  --color-primary: #ff0000;
-  --color-secondary: #950101;
+  --color-primary: #1B1B1B;
+  --color-secondary: #262626;
   --color-accent: #3d0000;
 
-  --background-image-desktop-home: url('/src/assets/bgcover.jpg');
-  --background-image-mobile-home: url('/src/assets/bgcoverMobile.jpg');
-  --background-image-desktop-about: url('/src/assets/bgcoverAbout.jpg');
-  --background-image-desktop-skills: url('/src/assets/bgcoverSkills.jpg');
+  --background-image-desktop-home: url("/src/assets/bgcover.jpg");
+  --background-image-mobile-home: url("/src/assets/bgcoverMobile.jpg");
+  --background-image-desktop-about: url("/src/assets/bgcoverAbout.jpg");
+  --background-image-desktop-skills: url("/src/assets/bgcoverSkills.jpg");
 }
 
 /*
@@ -41,7 +42,6 @@ layer(base);
 }
 
 :root {
-  background-color: #1A1A1D;
-  color: aliceblue;
-  scroll-behavior: smooth
+  background-color: #161616;
+  scroll-behavior: smooth;
 }

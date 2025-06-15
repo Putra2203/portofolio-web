@@ -6,7 +6,10 @@ import { SiRedux } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full lg:mt-12 mt-0" id="skills">
+    <div
+      className="flex flex-col items-center justify-center w-full lg:mt-12 mt-0"
+      id="skills"
+    >
       <div className="flex flex-col w-full max-w-(--breakpoint-xl) px-6 sm:px-8">
         <h2 className="lg:mb-10 mb-4 text-4xl font-bold text-center text-primary">
           My Skills
@@ -101,6 +104,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
+        <div></div>
       </div>
     </div>
   );

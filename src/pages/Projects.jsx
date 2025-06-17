@@ -30,7 +30,7 @@ const Projects = () => {
     {
       name: "CinemaTix",
       description:
-        "Built a movie discovery platform with Next.js focusing on performance optimization. Achieved 95+ Lighthouse score by implementing code splitting, image optimization, and efficient data fetching strategies. Developed interactive features like watchlist management with local storage and PDF ticket generation.",
+        "Built a movie discovery platform with Next.js focusing on performance optimization. Achieved 95+ Lighthouse score by implementing code splitting, image optimization, and efficient data fetching strategies. Developed interactive features like watchlist management with local storage and ticket generator.",
       technologies: "NextJs, Tailwindcss, TMDB API",
       images: cinematix,
       link: "https://github.com/iWantToBeAProgrammer/movie_project",

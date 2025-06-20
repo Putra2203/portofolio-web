@@ -1,11 +1,15 @@
+import { Infinity } from "lucide-react";
 import React from "react";
 
 const Navbar = () => {
   return (
     <div className="lg:bg-transparent absolute w-full top-2 flex px-2">
       {/* navbar lg */}
-      <div className="bg-primary border-2 border-secondary px-5 py-4 hidden w-full max-w-(--breakpoint-xl) lg:flex navbar-start rounded-2xl mx-auto mt-3">
-        <ul className="flex justify-end w-full gap-10">
+      <div className="hidden w-full max-w-(--breakpoint-xl) lg:flex navbar-start mx-auto mt-3">
+        <div className="bg-primary border-2 border-secondary  px-5 py-4 rounded-2xl mr-4">
+          <Infinity className="text-red-400" />
+        </div>
+        <ul className="flex justify-end w-full gap-10 bg-primary border-2 border-secondary  px-5 py-4 rounded-2xl">
           <li className="hover:underline">
             <a href="#home">Home</a>
           </li>

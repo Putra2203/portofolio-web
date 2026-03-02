@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import sisappma from "../assets/sisappma.png";
 import gis from "../assets/gis.png";
-import wimas from "../assets/Screenshot 2026-01-08 021732.png"; 
+import wimas from "../assets/Monitor XDR.png"; 
 import cinematix from "../assets/cinematix.png";
 import rmo24 from "../assets/rmo24.png";
 import dementia from "../assets/iPhone 16.png"; 

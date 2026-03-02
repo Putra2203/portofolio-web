@@ -4,31 +4,38 @@ import { CircleDot } from "lucide-react";
 const Experience = () => {
   const educationData = [
     {
-      date: "Graduated May 2022",
-      title: "SMAN 01 Pemalang",
-      description: "Major in Science (MIPA)",
+      date: "Aug 2022 - April 2026 (unofficial)",
+      title: "Dian Nuswantoro University",
+      description: "Bachelor of Informatics Engineering | GPA: 3.4/4.0",
     },
     {
-      date: "Aug 2022 - Current",
-      title: "Dian Nuswantoro University",
-      description: "Bachelor of Science in Informatics Engineering",
+      date: "Graduated May 2022",
+      title: "SMAN 01 Pemalang",
+      description: "Science Major (MIPA)",
     },
   ];
 
   const experienceData = [
     {
+      date: "Jan 2025 – Feb 2025",
+      title: "Balai Monitoring Frekuensi Radio (Balmon)",
+      role: "Software Engineering Intern",
+      description:
+        "Architected WIMAS (Inventory System) using Next.js and UCD, transitioning from legacy quantity tracking to precise Serial Number-based auditing. Built 7 core modules including Authentication and Audit Logs, optimizing internal approval workflows.",
+    },
+    {
       date: "Aug 2024 – Oct 2024",
-      title: "Internship at DISKOMINFO Semarang",
+      title: "DISKOMINFO Semarang",
       role: "Frontend Developer",
       description:
-        "Took on an independent internship at Semarang Diskominfo, where I am managing and running several web development projects with a focus on creating user-friendly interfaces and efficient systems. Led the development of user interfaces for multiple projects, specifically the SISAPMA and GIS Semarang subdistrict projects. Responsible for ensuring the interfaces were responsive, user-friendly, and aligned with the project's goals.",
+        "Developed UI/UX for SISAPMA and GIS platforms, ensuring high responsiveness and accessibility for public service applications. Managed end-to-end development of government web tools, aligning technical features with departmental goals.",
     },
     {
       date: "May 2024 – Sep 2024",
-      title: "Freelance Website Developer",
+      title: "FK UNIMUS (RMO 2024)",
       role: "Website Developer",
       description:
-        "Developed a website for the 2024 Regional Medical Olympiad (RMO 24) FK UNIMUS event, which included a landing page and registration system.",
+        "Built a custom registration platform for the 2024 Regional Medical Olympiad, managing 100+ participants and high-traffic landing pages. Delivered a seamless user journey from discovery to sign-up.",
     },
   ];
 
@@ -45,7 +52,7 @@ const Experience = () => {
                 <CircleDot className="text-red-300" /> Education
               </h1>
               {educationData.map((edu, index) => (
-                <div className="flex flex-col mb-4">
+                <div key={index} className="flex flex-col mb-4">
                   <div className="flex justify-between">
                     <h1 className="text-lg font-semibold">{edu.title}</h1>
                     <p className="text-sm text-red-100">{edu.date}</p>
@@ -62,10 +69,15 @@ const Experience = () => {
                 <CircleDot className="text-red-300" /> Experience
               </h1>
               {experienceData.map((exp, index) => (
-                <div className="flex flex-col bg-primary p-6 border-2 border-secondary rounded-3xl">
+                <div
+                  key={index}
+                  className="flex flex-col bg-primary p-6 border-2 border-secondary rounded-3xl"
+                >
                   <div className="flex justify-between mb-4 lg:flex-row flex-col gap-2">
                     <p className="text-sm">{exp.date}</p>
-                    <div className="badge badge-outline badge-error">{exp.role}</div>
+                    <div className="badge badge-outline badge-error">
+                      {exp.role}
+                    </div>
                   </div>
                   <h1 className="text-lg font-semibold">{exp.title}</h1>
                   <p className="text-justify text-pretty">{exp.description}</p>

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import sisappma from "../assets/sisappma.png";
-import gis from "../assets/gis.png"; // gunakan bila perlu (mis. ilustrasi GIS / dementia)
-import wimas from "../assets/gis_2.png"; // ganti dengan asset WIMAS nyata
+import gis from "../assets/gis.png";
+import wimas from "../assets/Screenshot 2026-01-08 021732.png"; 
 import cinematix from "../assets/cinematix.png";
 import rmo24 from "../assets/rmo24.png";
-import dementia from "../assets/CROWDSOURCING_2.png"; // optional: gambar untuk Dementia Patient Monitoring
+import dementia from "../assets/iPhone 16.png"; 
 import { CircleDot, ExternalLink } from "lucide-react";
 import ProjectModal from "../components/ProjectModal";
 
@@ -16,7 +16,7 @@ const Projects = () => {
     {
       name: "RMO 24",
       description:
-        "High-performance registration platform untuk Regional Medical Olympiad 2024. Menangani 100+ peserta aktif, validasi form kompleks, dan memastikan stabilitas selama puncak pendaftaran.",
+        "A high-performance registration platform developed for the 2024 Regional Medical Olympiad. Successfully handled 100+ active participants, implemented complex form validation, and ensured system stability during peak registration periods.",
       technologies: "Vite.js, React, Tailwind CSS, Axios",
       images: rmo24,
       link: "https://github.com/Putra2203/rmo24",
@@ -31,13 +31,13 @@ const Projects = () => {
     {
       name: "CinemaTix",
       description:
-        "Movie tracking & discovery platform with cinematic UI, Supabase authentication, dan integrasi TMDB API untuk data film real-time. Menggunakan React/Next.js + React Query untuk caching dan pengalaman pencarian yang halus.",
+        "A movie tracking and discovery platform featuring a cinematic user interface, secure authentication with Supabase, and real-time movie data integration via the TMDB API. Built using React and Next.js with React Query for efficient caching and smooth search experiences.",
       technologies: "Next.js, Supabase, React Query, TMDB API, Tailwind CSS",
       images: cinematix,
-      link: "https://github.com/Putra2203/CINEMATix", // ganti jika repo berbeda
+      link: "https://github.com/Putra2203/CINEMATix",
       successMatrix: [
         { skill: "Next.js Features", level: 5 },
-        { skill: "Supabase Auth", level: 5 },
+        { skill: "Supabase Authentication", level: 5 },
         { skill: "API Integration", level: 4 },
         { skill: "React Query", level: 5 },
         { skill: "UI/UX Design", level: 5 },
@@ -46,45 +46,45 @@ const Projects = () => {
     {
       name: "Dementia Patient Monitoring App",
       description:
-        "A mobile/web hybrid solution for real-time monitoring of dementia patients. Fitur utama: pelacakan GPS, notifikasi keluar zona aman, pengingat obat, tombol SOS, dan analytics pola pergerakan. Built dengan Flutter (mobile) dan Firebase untuk real-time sync.",
-      technologies: "Flutter, Firebase, React (dashboard), Maps/GPS",
-      images: dementia || gis,
-      link: "https://github.com/Putra2203", // tambahkan repo atau demo jika ada
+        "A mobile and web hybrid solution designed for real-time monitoring of dementia patients. Key features include GPS tracking, safe-zone exit notifications, medication reminders, an SOS button, and movement pattern analytics. Built with Flutter for mobile and Firebase for real-time data synchronization.",
+      technologies: "Flutter, Firebase, React (Dashboard), Maps/GPS",
+      images: dementia,
+      link: "https://github.com/Putra2203",
       successMatrix: [
-        { skill: "Flutter Mobile", level: 5 },
+        { skill: "Flutter Mobile Development", level: 5 },
         { skill: "Realtime Firebase", level: 5 },
-        { skill: "Location/GPS", level: 5 },
-        { skill: "Notifications & SOS", level: 4 },
-        { skill: "Analytics", level: 4 },
+        { skill: "Location & GPS Services", level: 5 },
+        { skill: "Notifications & SOS Features", level: 4 },
+        { skill: "Behavior Analytics", level: 4 },
       ],
     },
     {
       name: "WIMAS — Inventory System",
       description:
-        "Architected a full-stack inventory & asset management system for Balai Monitoring menggunakan Next.js. Migrated legacy tracking to serial-number based auditing and implemented 7 core modules (asset lifecycle, procurement, reporting, authentication). Integrasi PostgreSQL dan API backend untuk akurasi inventaris.",
+        "Architected a full-stack inventory and asset management system for a government monitoring agency using Next.js. Migrated legacy tracking into a serial-number–based auditing system and implemented seven core modules, including asset lifecycle management, procurement, reporting, and secure authentication. Integrated PostgreSQL and backend APIs to ensure data accuracy and reliability.",
       technologies:
-        "Next.js, Next.js API, PostgreSQL, Tailwind CSS, Python (integrasi)",
+        "Next.js, Next.js API Routes, PostgreSQL, Tailwind CSS, Python Integration",
       images: wimas,
-      link: "https://github.com/Putra2203", // ganti ke repo WIMAS jika ada
+      link: "https://github.com/Putra2203",
       successMatrix: [
-        { skill: "Next.js API", level: 5 },
-        { skill: "PostgreSQL", level: 5 },
+        { skill: "Next.js API Development", level: 5 },
+        { skill: "PostgreSQL Database Design", level: 5 },
         { skill: "System Migration", level: 4 },
-        { skill: "Audit & Reporting", level: 5 },
-        { skill: "Authentication", level: 5 },
+        { skill: "Audit & Reporting Systems", level: 5 },
+        { skill: "Authentication & Security", level: 5 },
       ],
     },
     {
       name: "SISAPMA & GIS (DISKOMINFO Semarang)",
       description:
-        "Spearheaded frontend & UI/UX for SISAPMA (attendance system) and GIS modules at DISKOMINFO Semarang. Implemented responsive interfaces, map integrations (Leaflet), dan menyesuaikan antarmuka sesuai standar pemerintah/aksesibilitas.",
+        "Led frontend and UI/UX development for SISAPMA (an internship attendance system) and GIS modules at the Semarang City Communication and Information Office (DISKOMINFO). Implemented responsive user interfaces, interactive map integrations using Leaflet, and ensured compliance with government accessibility and usability standards.",
       technologies: "React, Tailwind CSS, Axios, Leaflet.js",
       images: sisappma,
       link: "https://github.com/Putra2203/Front-End",
       successMatrix: [
         { skill: "UI/UX Development", level: 5 },
         { skill: "Map Integration (Leaflet)", level: 4 },
-        { skill: "Govt Standards & Accessibility", level: 5 },
+        { skill: "Government Standards & Accessibility", level: 5 },
         { skill: "Frontend Architecture", level: 4 },
         { skill: "Responsive Design", level: 5 },
       ],
